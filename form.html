@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page 2</title>
+</head>
+<body style="margin-left: 500px; margin-left:400px;">
+    <h1>Novell Services Login</h1>
+    <form action="thankyou.html" method="post">
+        <label>Username:</label>
+        <input type="text" required>
+        <br>
+        <br>
+        <label>Password</label>
+        <input type="password" required>
+        <br>
+        <br>
+        <label>City of<br> Employment:</label>
+        <input type="text" required>
+        <br>
+        <br>
+        <label>Web server (optional):</label>
+        <select name="webserver" id="webserver">
+            <option selected disabled>-----------Choose a web server---------</option>
+            <option value="Apache HTTP Server">Apache HTTP Server</option>
+            <option value="Nginx">Nginx</option>
+            <option value="Apache Tomcat">Apache Tomcat</option>
+            <option value="Internet Information Services">Internet Information Services (IIS)</option>
+            <option value="Jetty">Jetty</option>
+            <option value="Lighttpd">Lighttpd</option>
+            <option value="Caddy">Caddy</option>
+            <option value="LiteSpeed Web Server">LiteSpeed Web Server</option>
+            <option value="H20">H20</option>
+            <option value="Cherokee">Cherokee</option>
+            <option value="Monkey HTTP Server">Monkey HTTP Server</option>
+            <option value="Oracle iPlanet Web Server">Oracle iPlanet Web Server</option>
+            <option value="Xitami">Xitami</option>
+            <option value="thttpd">thttpd</option>
+            <option value="AOLserver">AOLserver</option>
+            <option value="Caudium">Caudium</option>
+            <option value="WEBrick">WEBrick</option>
+            <option value="Virtuoso Universal Server">Virtuoso Universal Server</option>
+            <option value="Resin">Resin</option>
+            <option value="HTTP File Server">HTTP File Server</option>
+            <option value="NaviServe">NaviServer</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <br>
+        <label>Please specify<br> your role:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="role" required>Admin
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="role">Engineer
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio"name="role">Manager
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio"name="role">Guest
+        <br>
+        <br>
+        <br>
+        <br>
+        <label>Single Sing-on<br> to the following:</label>
+        <input type="checkbox" required>Mail
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox">Payroll
+       <br>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox">Self-service
+       <br>
+       <br>
+       <input type="submit" value="Login">&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset">
+    </form>
+</body>
+</html>
